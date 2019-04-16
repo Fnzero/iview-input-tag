@@ -2,17 +2,18 @@
 
 > A input-tag component for iview
 
-## Build Setup
+## How to use
 
 ``` bash
-# install dependencies
-npm install
+# install 
+npm install iview-input-tag@1.0.0
 
-# serve with hot reload at localhost:8080
-npm run dev
+# import
+import IputTag from iview-input-tag
 
-# build for production with minification
-npm run build
+# use
+<InputTag :data="yourData" :width="num" :color="yourColor"></InputTag>
+    data: A string Array (is required, you can incoming a [])
+    width: A num (100/200/.... is not required) default is 300
+    color: iview color ('blue'/'green'/'success'/... is not required), default is 'success'
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
