@@ -14,6 +14,6 @@ import IputTag from iview-input-tag
 # use
 <InputTag :data="yourData" :width="num" :color="yourColor"></InputTag>
     data: A string Array (is required, you can incoming a [])
-    width: A num (100/200/.... is not required) default is 300
+    width: A num (100/200/.... is not required) default is 500
     color: iview color ('blue'/'green'/'success'/... is not required), default is 'success'
 ```
