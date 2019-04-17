@@ -1,6 +1,6 @@
 
 <template>
-    <div class="container" style="margin-bottom:100px" :style="{width: containerWidth + 'px'}" @click="click">
+    <div class="container" :style="{width: containerWidth + 'px'}" @click="click">
       <div id="tagContainer">
         <Tag v-for="(item, index) in data" closable 
         class="tag"
