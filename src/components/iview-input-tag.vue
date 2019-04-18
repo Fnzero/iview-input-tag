@@ -66,8 +66,8 @@ export default {
       this.data.push(this.value)
       this.value = ""
     },
-    click(){
-      let input = document.getElementsByClassName('input')[0]
+    click(e){
+      let input = e.target.getElementsByClassName('input')[0]
       input.focus()
     },
     len(value) {
